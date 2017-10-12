@@ -4,10 +4,11 @@
 }
 
 body {
-	background-image: url("images/background.jpg");
+	background-image: ("images/background.jpg");
 	background-size: cover;
 	font-family: Helvetica;
 	color: #cccccc;
+	padding-left: 30px;
 }
 
 img {
@@ -18,15 +19,35 @@ nav {
 	font-family: Helvetica;
 	color: #000000;
 	background-color: #6092FF;
+	padding-left: 30px;
+	padding-top: 30px;
 }
 
 h1 { 
+	padding-left: 30px;
+
 }
 
 #slogan {
 	font-size: 20px;
 	font-style: italic;
 	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #000000;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
 }
 
 footer {
