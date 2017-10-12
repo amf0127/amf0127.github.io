@@ -8,7 +8,6 @@ body {
 	background-size: cover;
 	font-family: Helvetica;
 	color: #cccccc;
-	padding-left: 30px;
 }
 
 img {
@@ -38,17 +37,6 @@ ul {
 	list-style-type: none;
 }
 
-li {
-	float: left;
-}
-
-li a {
-	display: block;
-	color: #000000;
-	text-align: center;
-	padding: 16px;
-	text-decoration: none;
-}
 
 footer {
 	font-size: 10px;
