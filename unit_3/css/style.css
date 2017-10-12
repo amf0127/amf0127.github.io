@@ -1,0 +1,36 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	font-family: Helvetica;
+	color: #cccccc;
+}
+
+img {
+	width: 100%;
+}
+
+nav {
+	font-family: Helvetica;
+	color: #000000;
+	background-color: #6092FF;
+}
+
+h1 { 
+}
+
+#slogan {
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+}
+
+footer {
+	font-size: 10px;
+	text-align: center;
+	color: #6092FF;
+}
