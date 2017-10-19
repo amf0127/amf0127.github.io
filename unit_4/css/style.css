@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Scope+One');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Scope One', serif;
+	color: #575757;
+	font-size: 17px;
+	width: 30em auto;
+
+}
+
+p {
+	text-align: center;
+	font-size: 1em
+	width: 30em auto;
+}
+
+img {
+	width: 100%;
+}
+
+nav {
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 2em;
+	color: #000000;
+	margin: auto;
+}
+
+a {
+	color: #6092FF;
+	padding: 1px;
+}
+
+
+h1 { 
+	font-size: 4em;
+	color: #6092FF;
+	text-align: center;
+	font-style: italic;
+	letter-spacing: 3px;
+
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+.circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	font-size: 32px;
+	color: #fff;
+	line-height: 200px;
+	text-align: center;
+	background: #6092FF;
+	
+}
+
+.offerings {
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 2em;
+	color: #6092FF;
+	margin: 2em auto;
+	width: 15em;
+}
+
+
+#slogan {
+	font-size: 1.25em;
+	font-style: italic;
+	text-align: center;
+}
+
+#top {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+footer {
+	font-size: 10px;
+	text-align: center;
+	color: #575757;
+}
