@@ -25,8 +25,6 @@ img {
 }
 
 nav {
-	background-image: url("images/background.jpg");
-	background-size: cover;
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 2em;
 	color: #000000;
@@ -50,6 +48,12 @@ h1 {
 
 h2 {
 	font-size: 1.5em;
+}
+
+footer {
+	font-size: 10px;
+	text-align: center;
+	color: #575757;
 }
 
 .circle {
@@ -84,10 +88,4 @@ h2 {
 	background-image: url(../images/background.jpg);
 	background-size: cover;
 	background-position: center;
-}
-
-footer {
-	font-size: 10px;
-	text-align: center;
-	color: #575757;
 }
