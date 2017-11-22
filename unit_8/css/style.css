@@ -43,14 +43,15 @@ nav a {
 }
 
 a {
-	color: #6092FF;
+	color: #FFFFFF;
 	padding: 0.2em;
+	text-decoration: none;
 }
 
 
 h1 { 
 	font-size: 4em;
-	color: #6092FF;;
+	color: #6092FF;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
@@ -59,6 +60,16 @@ h1 {
 
 h2 {
 	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 3em;
+	color: #6092FF;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	padding: 0.5em;
+	margin: 0.5em;
 }
 
 footer {
@@ -76,8 +87,7 @@ footer {
 	color: #fff;
 	line-height: 200px;
 	text-align: center;
-	background: #6092FF;
-	
+	background: #6092FF;	
 }
 
 .offerings {
@@ -96,6 +106,20 @@ footer {
 	content: "  ";
 	clear: both;
 	height: 0;
+}
+
+.contact {
+	text-align: center;
+	padding: 2em;
+	margin: 2em 4em;
+    font-family: 'Fjalla One', sans-serif;
+	font-size: 2em;
+	background-color: #6092FF;
+}
+
+.kick {
+	background-color: #6092FF;
+
 }
 
 #slogan {
@@ -163,13 +187,14 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
-  h1, {
+  h1, h3 {
     display: inline-block;
     text-align: center;
   }
-  nav a {
-    margin: 0 1em 1em;
+  nav a, a, .contact {
+    margin: 1em;
     font-size: 1em;
+    text-align: center;
   }
   h2 {
   	font-size: 0.5em;
@@ -187,9 +212,6 @@ footer {
 	line-height: 100px;
 	text-align: center;
 	background: #6092FF;*/
-  }
-  a {
-  	text-decoration: none;
   }
  
   p {
